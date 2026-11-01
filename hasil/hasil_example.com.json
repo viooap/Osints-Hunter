@@ -1,0 +1,26 @@
+{
+    "domain": "example.com",
+    "waktu": "2026-11-01T19:57:09.919770",
+    "records": {
+        "A": [
+            "104.20.23.154",
+            "172.66.147.243"
+        ],
+        "AAAA": [
+            "2606:4700:10::6814:179a",
+            "2606:4700:10::ac42:93f3"
+        ],
+        "CNAME": [],
+        "MX": [
+            "0 ."
+        ],
+        "NS": [
+            "elliott.ns.cloudflare.com.",
+            "hera.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9",
+            "v=spf1 -all"
+        ]
+    }
+}

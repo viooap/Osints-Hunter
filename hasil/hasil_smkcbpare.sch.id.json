@@ -1,0 +1,246 @@
+{
+    "domain": "smkcbpare.sch.id",
+    "waktu": "2026-11-01T20:08:54.762511",
+    "ditemukan": [
+        {
+            "subdomain": "www.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "mail.smkcbpare.sch.id",
+            "ip": "142.251.175.121"
+        },
+        {
+            "subdomain": "ftp.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "localhost.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "webmail.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "smtp.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "pop.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "ns1.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "ns2.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "dns.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "search.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "dev.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "test.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "staging.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "api.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "blog.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "shop.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "admin.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "forum.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "vpn.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "m.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "mobile.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "app.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "beta.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "demo.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "webdisk.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "cpanel.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "whm.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "autodiscover.smkcbpare.sch.id",
+            "ip": "52.97.112.152"
+        },
+        {
+            "subdomain": "autoconfig.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "ns.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "mx.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "gw.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "gateway.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "vps.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "server.smkcbpare.sch.id",
+            "ip": "119.2.43.210"
+        },
+        {
+            "subdomain": "host.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "cdn.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "img.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "images.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "static.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "media.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "files.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "download.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "upload.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "git.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "svn.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "jira.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "confluence.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "wiki.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "redmine.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "chat.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "support.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "help.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "status.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "monitor.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "stats.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "analytics.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "tracking.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        },
+        {
+            "subdomain": "news.smkcbpare.sch.id",
+            "ip": "199.85.210.212"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "target": "119.2.43.210",
+    "waktu": "2026-11-01T20:07:54.066385",
+    "banners": [
+        {
+            "port": 21,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 25,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 53,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 80,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 110,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 143,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 443,
+            "banner": "(port terbuka, tidak ada balasan)"
+        },
+        {
+            "port": 3306,
+            "banner": "(port terbuka, tidak ada balasan)"
+        }
+    ]
+}

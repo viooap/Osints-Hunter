@@ -1,0 +1,8 @@
+Google Dorks untuk smkcbpare.sch.id
+
+File PDF/Doc: site:smkcbpare.sch.id filetype:pdf OR filetype:doc OR filetype:docx
+Login Page: site:smkcbpare.sch.id inurl:login OR inurl:signin OR inurl:admin
+Exposed Config: site:smkcbpare.sch.id inurl:config OR inurl:env OR filetype:yml OR filetype:yaml
+Index Directory: site:smkcbpare.sch.id intitle:"index of"
+Subdomain via DNS: site:smkcbpare.sch.id
+Cached / Backup: site:smkcbpare.sch.id filetype:bak OR filetype:old OR filetype:zip
