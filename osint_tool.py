@@ -53,9 +53,7 @@ except ImportError:
     HAS_ADVANCED = False
 
 
-# ===========================================================================
-# Utilitas
-# ===========================================================================
+
 def validasi_domain(domain):
     return domain and "." in domain and " " not in domain
 
@@ -88,9 +86,6 @@ def tanya_simpan(target):
     return None
 
 
-# ===========================================================================
-# Modul 1: IP Geolocation Lookup
-# ===========================================================================
 def ip_geolocation(target, simpan_file=None):
     section("IP GEOLOCATION LOOKUP", icon="geo")
     info("Target: {}".format(target))
@@ -143,9 +138,6 @@ def ip_geolocation(target, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 2: DNS Lookup
-# ===========================================================================
 def dns_lookup(domain, simpan_file=None):
     section("DNS LOOKUP", icon="dns")
     info("Target: {}".format(domain))
@@ -199,9 +191,7 @@ def dns_lookup(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 3: WHOIS Lookup
-# ===========================================================================
+
 def whois_lookup(domain, simpan_file=None):
     section("WHOIS LOOKUP", icon="whois")
     info("Target: {}".format(domain))
@@ -264,9 +254,7 @@ def whois_lookup(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 4: HTTP Header Grabber
-# ===========================================================================
+
 def http_headers(url, simpan_file=None):
     section("HTTP HEADER GRABBER", icon="web")
     info("Target: {}".format(url))
@@ -308,9 +296,6 @@ def http_headers(url, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 5: Subdomain Brute-force
-# ===========================================================================
 DEFAULT_SUBDOMAINS = [
     "www", "mail", "ftp", "localhost", "webmail", "smtp", "pop", "ns1", "ns2",
     "dns", "search", "dev", "test", "staging", "api", "blog", "shop",
@@ -364,9 +349,7 @@ def subdomain_bruteforce(domain, wordlist_file=None, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 6: Port Scanner
-# ===========================================================================
+
 COMMON_PORTS = {
     21: "FTP", 22: "SSH", 23: "Telnet", 25: "SMTP", 53: "DNS", 69: "TFTP",
     80: "HTTP", 110: "POP3", 111: "RPC", 123: "NTP", 135: "MS-RPC", 139: "NetBIOS",
@@ -413,9 +396,7 @@ def port_scan(target, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Modul 7: Username Availability
-# ===========================================================================
+
 PLATFORMS = {
     "GitHub": "https://github.com/{}",
     "Twitter/X": "https://twitter.com/{}",
@@ -464,9 +445,6 @@ def username_check(username, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ===========================================================================
-# Orchestrasi "Jalankan Semua"
-# ===========================================================================
 def jalankan_semua(target, simpan_file):
     section("JALANKAN SEMUA MODUL", icon="rocket")
     info("Target: {}".format(target))
@@ -515,9 +493,7 @@ def jalankan_semua(target, simpan_file):
             username_check(target, simpan_file)
 
 
-# ===========================================================================
-# Menu & Main
-# ===========================================================================
+
 def tampilkan_menu():
     section("MENU UTAMA", icon="menu")
     menu_item("1", "IP Geolocation Lookup", "geo")

@@ -48,9 +48,7 @@ except ImportError:
     HAS_REQUESTS = False
 
 
-# ---------------------------------------------------------------------------
-# Utilitas
-# ---------------------------------------------------------------------------
+
 def validasi_domain(domain):
     return domain and "." in domain and " " not in domain
 
@@ -75,9 +73,7 @@ def simpan_hasil(nama_file, data):
         return False
 
 
-# ---------------------------------------------------------------------------
-# Fitur 1: Subdomain via Certificate Transparency (crt.sh)
-# ---------------------------------------------------------------------------
+
 def ct_subdomain(domain, simpan_file=None):
     section("CERTIFICATE TRANSPARENCY (crt.sh)", icon="cert")
     info("Target: {}".format(domain))
@@ -129,9 +125,7 @@ def ct_subdomain(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 2: Wayback Machine URL History
-# ---------------------------------------------------------------------------
+
 def wayback_history(domain, simpan_file=None):
     section("WAYBACK MACHINE URL HISTORY", icon="search")
     info("Target: {}".format(domain))
@@ -182,9 +176,7 @@ def wayback_history(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 3: SSL/TLS Certificate Info
-# ---------------------------------------------------------------------------
+
 def ssl_info(domain, simpan_file=None):
     section("SSL/TLS CERTIFICATE INFO", icon="lock")
     info("Target: {}".format(domain))
@@ -231,9 +223,7 @@ def ssl_info(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 4: HTTP Technology Detection
-# ---------------------------------------------------------------------------
+
 def tech_detect(target, simpan_file=None):
     section("HTTP TECHNOLOGY DETECTION", icon="web")
     info("Target: {}".format(target))
@@ -301,9 +291,7 @@ def tech_detect(target, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 5: Port Banner Grabber
-# ---------------------------------------------------------------------------
+
 COMMON_PORTS_BANNER = [21, 22, 25, 53, 80, 110, 143, 443, 445, 3306, 3389, 8080, 8443]
 
 
@@ -344,9 +332,7 @@ def banner_grab(target, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 6: Reverse DNS
-# ---------------------------------------------------------------------------
+
 def reverse_dns(target, simpan_file=None):
     section("REVERSE DNS LOOKUP", icon="net")
     info("Target: {}".format(target))
@@ -370,9 +356,7 @@ def reverse_dns(target, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 7: MX Record (Email Server)
-# ---------------------------------------------------------------------------
+
 def mx_lookup(domain, simpan_file=None):
     section("MX RECORD / EMAIL SERVER", icon="dns")
     info("Target: {}".format(domain))
@@ -407,9 +391,7 @@ def mx_lookup(domain, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 8: Image EXIF Metadata
-# ---------------------------------------------------------------------------
+
 def exif_metadata(filepath, simpan_file=None):
     section("IMAGE EXIF METADATA", icon="user")
     info("File: {}".format(filepath))
@@ -445,9 +427,7 @@ def exif_metadata(filepath, simpan_file=None):
         simpan_hasil(simpan_file, hasil)
 
 
-# ---------------------------------------------------------------------------
-# Fitur 9: Google Dork Generator
-# ---------------------------------------------------------------------------
+
 def generate_dorks(domain):
     return {
         "File PDF/Doc": 'site:{} filetype:pdf OR filetype:doc OR filetype:docx'.format(domain),
@@ -486,10 +466,6 @@ def google_dork_generator():
         except Exception as e:
             error("Gagal simpan: {}".format(e))
 
-
-# ---------------------------------------------------------------------------
-# Fitur 10: Jalankan semua advanced tools (otomatis)
-# ---------------------------------------------------------------------------
 def jalankan_semua_advanced(target, simpan_file=None):
     section("JALANKAN SEMUA ADVANCED TOOLS", icon="rocket")
     info("Target: {}".format(target))
