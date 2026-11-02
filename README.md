@@ -42,7 +42,7 @@ Unauthorized use against third parties is illegal. The author is not responsible
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/username/Osint-Hunter.git
+git clone https://github.com/viooap/Osints-Hunter.git
 cd Osint-Hunter
 pip install -r requirements.txt
 python3 osint_tool.py
